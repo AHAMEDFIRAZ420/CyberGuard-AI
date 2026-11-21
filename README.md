@@ -1,4 +1,4 @@
-# 🛡️ CyberGuard AI: Android Malware Detection & Integrity Auditing Platform
+#  CyberGuard AI: Android Malware Detection & Integrity Auditing Platform
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/Framework-Flask-black.svg)](https://flask.palletsprojects.com/)
@@ -11,7 +11,7 @@ An enterprise-grade, machine learning-driven Android malware detection and foren
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 1. [System Architecture](#-system-architecture)
 2. [Core Features](#-core-features)
 3. [Dataset Specifications](#-dataset-specifications)
@@ -24,7 +24,7 @@ An enterprise-grade, machine learning-driven Android malware detection and foren
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
@@ -42,7 +42,7 @@ flowchart TD
 
 ---
 
-## ✨ Core Features
+##  Core Features
 
 - **Automated Permission Matrix Extraction**: Analyzes 184 discrete Android manifest permissions, distinguishing safe system permissions from dangerous and sensitive API privileges.
 - **XGBoost Threat Classifier**: Trained on a large-scale repository of 29,999 real-world Android applications to identify malware signatures with high precision.
@@ -50,14 +50,14 @@ flowchart TD
   - Implements SHA-256 cryptographic hashing and Proof-of-Work consensus.
   - Every application verification, download transaction, and security verdict is permanently anchored with timestamped block hashes.
 - **Triple-Role Access Control**:
-  - 🏢 **Admin Center**: Raw data ingestion, preprocessing pipeline, model training, performance visualizations, and ledger exploration.
-  - 👨‍💻 **Developer Hub**: Secure APK registration, automated scanning, and real-time security certification.
-  - 👤 **End-User Portal**: Curated app marketplace with on-demand safety auditing and automated malicious download blocking.
+  -  **Admin Center**: Raw data ingestion, preprocessing pipeline, model training, performance visualizations, and ledger exploration.
+  -  **Developer Hub**: Secure APK registration, automated scanning, and real-time security certification.
+  -  **End-User Portal**: Curated app marketplace with on-demand safety auditing and automated malicious download blocking.
 - **Modern Glassmorphism UI**: Dynamic Dark/Light theme toggle, responsive tables, real-time AJAX progress states, and intuitive data visualizations.
 
 ---
 
-## 📊 Dataset Specifications
+##  Dataset Specifications
 
 The platform is evaluated on a comprehensive dataset compiled for static Android malware research:
 
@@ -71,7 +71,7 @@ The platform is evaluated on a comprehensive dataset compiled for static Android
 
 ---
 
-## 📈 Machine Learning Performance & Results
+##  Machine Learning Performance & Results
 
 The system utilizes an optimized **Extreme Gradient Boosting (XGBoost)** classifier configured with binary logistic loss, regularized depth, and subsampling.
 
@@ -120,27 +120,27 @@ To prevent tampering with security audit records, **CyberGuard AI** records each
 
 ---
 
-## 🧭 Portals & Access Control
+##  Portals & Access Control
 
-### 1. 🏢 Admin Dashboard (`/admin`, `/login`)
+### 1.  Admin Dashboard (`/admin`, `/login`)
 - Real-time counters: Total Scans, Malware Detected, and Clean Applications.
 - Ingestion of updated threat datasets (`.csv`).
 - Feature preprocessing and real-time visualization generation.
 - Full ledger inspection via the Blockchain Explorer.
 
-### 2. 👨‍💻 Developer Hub (`/dev_home`, `/login_app`)
+### 2.  Developer Hub (`/dev_home`, `/login_app`)
 - Application registration form (APK binary, package name, icon, category, and pricing).
 - Automatic malware classification against database signatures upon registration.
 - Instant feedback on application safety score.
 
-### 3. 👤 End-User Portal (`/userhome`, `/login_user`)
+### 3.  End-User Portal (`/userhome`, `/login_user`)
 - Interactive app marketplace with safety badges (`🛡️ Legitimate` vs `⚠️ Malicious`).
 - Dynamic download handler: Automatically halts malicious payloads and issues threat alerts.
 - Live blockchain traceability verification for every downloaded item.
 
 ---
 
-## 🛠️ Installation & Deployment
+##  Installation & Deployment
 
 ### 1. Prerequisites
 - **Python 3.8+** (Ensure Python is added to system `PATH`)
@@ -167,11 +167,11 @@ python main.py
 ```
 
 Access the live platform in your web browser at:
-👉 **`http://localhost:5005`**
+ **`http://localhost:5005`**
 
 ---
 
-## 🔑 Default Credentials
+##  Default Credentials
 
 Preloaded credentials from `database/android_malware.sql` for instant demonstration:
 
@@ -183,7 +183,7 @@ Preloaded credentials from `database/android_malware.sql` for instant demonstrat
 
 ---
 
-## 📁 Project Directory Layout
+##  Project Directory Layout
 
 ```
 android_malware/
@@ -213,6 +213,6 @@ android_malware/
 
 ---
 
-## 📜 License & Acknowledgments
+##  License & Acknowledgments
 - Developed for Academic Research and Final Year Engineering Cybersecurity evaluation.
 - Dataset compiled from Android manifest static permission extractions.
