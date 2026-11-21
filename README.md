@@ -100,7 +100,7 @@ The system utilizes an optimized **Extreme Gradient Boosting (XGBoost)** classif
 
 ---
 
-## 🔗 Blockchain Audit Ledger
+##  Blockchain Audit Ledger
 
 To prevent tampering with security audit records, **CyberGuard AI** records each scan event into a custom blockchain structure (`static/appchain.json`):
 
